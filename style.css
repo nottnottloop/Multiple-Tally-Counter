@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	margin-left: 2px;
+	background-color: black;
+	color: white;
+}
+
+h1, h2, p {
+	margin: 0;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+#counter-list {
+	background-color: black;
+	color: white;
+}
+
+#counters {
+	display: flex;
+	margin: 5px;
+	gap: 5px;
+	flex-wrap: wrap;
+	-webkit-text-stroke: 1.5px black;
+}
+
+.counter-box {
+	border: 3px white solid;
+	padding: 20px;
+	text-align: center;
+	user-select: none;
+}
